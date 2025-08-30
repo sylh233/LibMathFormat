@@ -10,11 +10,14 @@ mathf::mathf(int n,int d,int i)
         deno = d;
     if(i)
         index = i;
+    reduce_frac();
 }
 
 double mathf::value()//提供值
 {
-    double frac = double(nume/deno);
+    using namespace std;
+
+    double frac = nume*1.0/deno;
     double result = pow(frac,1.0/index);
 
     return result;
@@ -29,7 +32,7 @@ void mathf::print()//打印值
     if(deno!=1)
         cout << '/' << deno;
     if (index!=1)
-        cout << ")^" << 1 << "/("
+        cout << ")^(" << 1 << '/'
         << index <<')';
     
 }
@@ -43,5 +46,6 @@ void mathf::reduce_frac()//约分分式
         {
             a=b;b=c;c=a%b;
         }
-    nume/=c;deno/=c;
+    if(c)
+        nume/=c;deno/=c;
 }
