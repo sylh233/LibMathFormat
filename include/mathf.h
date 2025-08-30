@@ -4,7 +4,7 @@
 class mathf
 {
 private:
-    int nume;//分字
+    int nume = 0;//分子
     int deno = 1;//分母
     int index = 1;//开几次方根
     void reduce_frac();
