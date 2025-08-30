@@ -1,0 +1,3 @@
+Y:/Cpp_work/proj_Lib_MathFormat/build/CMakeFiles/mathf.dir
+Y:/Cpp_work/proj_Lib_MathFormat/build/CMakeFiles/edit_cache.dir
+Y:/Cpp_work/proj_Lib_MathFormat/build/CMakeFiles/rebuild_cache.dir

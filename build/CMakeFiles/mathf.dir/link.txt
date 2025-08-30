@@ -1,0 +1,2 @@
+F:\mingw64\bin\ar.exe qc Y:\Cpp_work\proj_Lib_MathFormat\out\libmathf.a CMakeFiles/mathf.dir/src/mathfFunc.cpp.obj
+F:\mingw64\bin\ranlib.exe Y:\Cpp_work\proj_Lib_MathFormat\out\libmathf.a

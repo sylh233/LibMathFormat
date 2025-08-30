@@ -1,0 +1,8 @@
+[
+{
+  "directory": "Y:/Cpp_work/proj_Lib_MathFormat/build",
+  "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/mathf.dir/includes_CXX.rsp -g -o CMakeFiles\\mathf.dir\\src\\mathfFunc.cpp.obj -c Y:\\Cpp_work\\proj_Lib_MathFormat\\src\\mathfFunc.cpp",
+  "file": "Y:/Cpp_work/proj_Lib_MathFormat/src/mathfFunc.cpp",
+  "output": "CMakeFiles/mathf.dir/src/mathfFunc.cpp.obj"
+}
+]

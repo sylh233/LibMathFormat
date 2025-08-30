@@ -7,3 +7,4 @@ aux_source_directory(${CMAKE_SOURCE_DIR}/src SRC)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/out)
 
 add_library(mathf STATIC ${SRC})
+#add_library(mathf SHARED ${SRC})
